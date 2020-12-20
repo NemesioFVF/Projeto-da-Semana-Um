@@ -1,0 +1,467 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   }
+
+/* rolagem suave menu */
+html {
+     scroll-behavior: smooth;
+     }
+
+body {
+     text-align: center;
+     margin: 0;
+}
+
+#infor {
+
+    padding: 1%;
+    line-height: 1;
+    display:flex;
+    background: linear-gradient(rgba(31, 61, 44, 0.5), rgba(0, 0, 0, 0.5)), url('img/fundo123.png');
+    margin-bottom: -2%;
+}
+
+#jmv{
+
+    border-bottom: 3px dashed rgb(100, 141, 109);
+    
+}
+
+footer h2{
+    font-size: 20px;
+    width: 150%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+footer h3{
+    margin-top: 6%;
+    font-size: 35px;
+    width: 120%;
+    text-align:left;
+    margin-left:auto;
+    margin-right: auto;
+  
+}
+
+#play{
+    background-image: url(img/musc.png);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 55%;
+}
+
+
+#pause{
+    background-image: url(img/musc.png);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+     #fim {
+        background-image: url('img/fundo123.png');
+        display: flex;
+        line-height: 2;
+     
+            } 
+
+        #fonte {
+            width: 15%;
+        }
+        #fonte h3 {
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        #fonte a img {
+            width: 50px;
+            opacity: 55%;
+            padding-top: 9%;
+            margin-left:auto;
+            margin-right: auto;
+            
+        }
+
+        #fonte a img:hover {
+            transition: all 0.6s ease;
+            opacity: 100%;
+            
+        }
+       
+
+        #gif00 {
+            margin-top: auto;
+            width: 12%;
+            justify-items: center;
+            
+        }
+        #gif02{
+            margin-top: 1%;
+            margin-bottom: 1%;
+            width: 5%;
+
+        }
+
+
+h1 {
+    text-align: justify;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(86, 236, 129);
+    font-family: 'Atomic Age', cursive;
+    font-size: 3em;
+    text-shadow: 0px 0px 6px #000000;
+    }
+h2 {
+    font-family: 'Atomic Age', cursive;
+    text-shadow: 0px 0px 6px #000000;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(194, 164, 65);
+
+}
+
+h3 {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(141, 236, 168);
+    font-family: 'Atomic Age', cursive;
+    font-size: 2em;
+    text-shadow: 0px 0px 6px #000000;
+    }
+h5{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    color:  rgb(218, 236, 141);
+    font-family: 'Langar', cursive;
+    text-shadow: 0px 0px 6px #000000;
+
+}
+
+p {
+   display: flex;
+   text-align: justify;
+   margin-right: 10%;
+   margin-left: 10%;
+   color: rgb(183, 247, 255);
+   font-family: 'Langar', cursive;
+   font-size: 115%;
+   text-shadow: 0px 0px 6px #1b1616;
+  }
+
+p:hover {
+        text-shadow: 0px 0px 30px rgb(241, 241, 241);
+        transition: all 0.6s ease;
+        }
+
+a {
+  text-decoration: none;
+  color: rgb(194, 164, 65);
+  font-family: 'Langar', cursive;
+  text-shadow: 0px 0px 6px #000000;
+  }
+    
+a:hover {
+        color: rgb(141, 236, 168);
+        transition: all 0.6s ease;
+        }
+
+#title {
+       font-size: 7em;
+       color: rgb(255, 255, 255);
+       font-family: 'Atomic Age', cursive;
+       text-shadow: 0px 0px 6px #000000;
+       cursor: pointer;
+       }
+
+#title:hover{
+    color: rgba(235, 250, 33, 0.842);
+    text-shadow: 0px 0px 6px rgb(31, 29, 29);
+    transition: all 0.5s;
+
+    
+    
+}
+
+/* imagem meu*/
+#main div {
+          height: 420px;
+          /*background-image: url('img/menu3.png');*/
+          background: linear-gradient(rgba(85, 138, 199, 0.212), rgba(0, 0, 0, 0.5)), url(img/menu1.png);
+          background-size:100%;
+          background-attachment:fixed;
+          background-repeat: no-repeat;
+          background-color:black ;
+          }
+
+
+#main div:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.5)), url(img/menu1.png);
+    background-size:100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    transition: all 0.8s;
+    background-color:black ;
+
+
+}
+
+
+#img-div {
+         background-image: url('img/fundosite1.jpg');
+         background-repeat: no-repeat;
+         background-size:100%;
+         background-color: black;
+         background-attachment:fixed;
+         
+         box-shadow: inset 0px 100px 200px rgb(3, 7, 4), inset 0px 100px 250px rgb(14, 99, 56);
+         }
+
+.menu {
+      background-color: rgb(0, 0, 0);
+      /*controla a "profundidade" (eixo Z) dos elementos.*/
+      z-index: 99;
+      }
+
+.menu ul {
+         max-width: 100%;
+         list-style: none;
+         padding: 0;
+         
+         }
+
+.menu ul li {
+            display:inline-flex;
+            
+            }
+
+.menu ul li a {
+              color: #FFF;
+              padding: 20px;
+              display: inline-block;
+              text-decoration: none;
+              transition: background .6s;
+              font-family: 'Atomic Age', cursive;
+              font-size: 2em; 
+              }
+
+.menu ul li a:hover {
+                    background-image: url('img/777.gif');
+                    color: rgb(243, 243, 148);
+                    /* cor exata do chapel Link rgb(31, 146, 55); */
+                    
+                    }
+
+.fixonotopo {
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            list-style: none;
+            padding: 0px;
+            }
+
+#div3 p iframe {
+               margin-right: 2%;
+               margin-left: 0%;
+               }
+
+#container {
+           width: 650px;
+           height:auto;
+           margin-top: 50px;
+           background: linear-gradient(rgba(119, 114, 114, 0.5), rgba(0, 0, 0, 0.5)), url(img/1234.jpg);
+           border-radius: 7px;
+           overflow: hidden; 
+           margin-bottom: -1%;
+           }
+
+.principal {
+           width: 512px;
+           height: auto;
+           border:solid 1px transparent;
+           }
+
+.slide {
+       display: flex;
+       width: 600%;
+       transition: all .8s;
+       }
+
+.slide img {
+           margin-top: 20px;
+           border-radius: 25px;
+           cursor: pointer;
+           }
+
+.slide img:hover {
+                 box-shadow: 0px 5px 35px rgb(31, 146, 55), -2px 2px 6px rgb(255, 255, 255);
+                 transition: all .5s;
+                 }
+
+label img {
+          width: 100px;
+          height: auto;
+          cursor: pointer;
+          float: left;
+          opacity: 0.5;
+          border-radius: 10px;
+          margin-top: 2%;
+          margin-left: 1%;
+          }
+
+label img:hover {
+                opacity: 1;
+                transition: all .9s;
+                }
+/* slide nas fanarts */
+#f1:checked ~ .principal .slide {margin-left: 0%;}
+#f2:checked ~ .principal .slide {margin-left: -100%;}
+#f3:checked ~ .principal .slide {margin-left: -200%;}
+#f4:checked ~ .principal .slide {margin-left: -300%;}
+#f5:checked ~ .principal .slide {margin-left: -400%;}
+#f6:checked ~ .principal .slide {margin-left: -500%;}
+
+#container input {
+                 display: none;
+                 }
+
+#link01 {
+        margin-top: -7%;
+        width: 500px;
+        margin-left: 3%;
+        cursor: pointer;
+        }
+
+#link02 {
+        width: 500px;
+        margin-top: -4%;
+        margin-left: 1%;
+        margin-right: 2%;
+        cursor: pointer;
+        }
+
+#link22 {
+        margin-left: 25%;
+        align-items: center;
+        margin-top: -18%;
+        width: 23%;
+        cursor: pointer;
+        }
+
+#fundo123 {
+          width: 100%;
+          }
+
+#jogo360 iframe {
+                margin-bottom: 3%;
+                margin-left: 5%;
+                margin-top: 1%;
+                }
+
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-track {background:rgb(60, 83, 54);}
+::-webkit-scrollbar-thumb{background:rgb(115, 166, 103);}
+::-webkit-scrollbar-thumb:hover{background:rgb(15, 149, 54);}
+
+/* linha do tempo*/
+
+.lt {
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+    .corpo-lt{
+        position: relative;
+        margin-left: 100px;
+        border-radius: 0 8px 8px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(79, 136, 13, 0.5)), url(img/1234.jpg);
+        padding: 5px 0; 
+
+    }
+
+    .corpo-lt:after {
+        content: '';
+        width: 4px;
+        height: 100%;
+        background: linear-gradient(rgba(79, 136, 13, 0.5), rgba(133, 235, 17, 0.5));
+        position: absolute;
+        left: -4px;
+        top: 0;
+    }
+
+.itens-lt {
+    position: relative;
+}
+
+.itens-lt:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid  rgba(133, 235, 17, 0.5);
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: -16px;
+    top:4px;
+    z-index: 9;
+}
+
+.itens-lt div img {
+    cursor: pointer;
+}
+
+.tempos{
+    position: absolute;
+    left: -230px;
+    top: 4px;
+    font-size: 30px;
+    display: flex;
+    text-align:justify;
+    color:  rgba(133, 235, 17, 0.4);
+}
+
+.conteudo {
+    margin: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px dashed rgb(141, 140, 100);
+}
+
+.conteudo div {
+    margin-bottom: -2%;
+    margin-top: -1%;
+    margin-left: 13%;
+}
+
+.tiutlo {
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.jszelda {
+    margin-left: 4%;
+    margin-top: -1%;
+    border-radius: 5px;
+}
+
+.datahj{
+    font-family: 'Atomic Age', cursive;
+    text-shadow: -5px 3px 5px rgb(178, 189, 25), 5px -3px 5px rgb(0, 255, 85);
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    justify-items: center;
+}
+

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon1.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- link para fonte do Google Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap" rel="stylesheet"> 
+
+    <title>Projeto da Semana Um - TRIBUTO</title>
+</head>
+
+<body> 
+
+        <header>
+            <div id="main">
+                <div id="title" onclick="changeText()">
+                <br> Link
+                </div>
+                
+        </header>
+            <nav class="menu">
+                        
+            <ul>
+                <li><a href="#sobre" class="nav">Personagem</a></li>
+                <li><a href="#linhat" class="nav">Linha do Tempo</a></li>
+                <li><a href="#musicas" class="nav">Músicas</a></li>
+                <li><a href="#imagens" class="nav">Galeria de Imagens</a></li>
+                <li><a href="#jmv" class="nav">Jogo da Minha Vida</a></li>
+                
+                  <li class="musica">
+                <a id="play" onclick="playShow()" ></a>
+                <a id="pause" onclick="pauseShow()" style="display:none;"> </a>
+            </li>
+
+
+            <audio id="audioZL">
+                <source src="mus/zelda25.mp3" type="audio/mp3">
+              </audio>
+         
+             </ul>
+            </nav>
+
+
+
+<div id="img-div">
+        <section id="sobre" >
+            <div id="div1">
+                <br><br>
+                    <h1>Personagem</h1>
+                    <p> 
+                        <br><br>
+                        Link (Rinku - リンク) é o protagonista da série Legend of Zelda. 
+                        <br> <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Ele é geralmente retratado como um corajoso garoto ou adolescente com uma vestimenta verde, o qual 
+                        abandona sua casa e seus parentes para perseguir o seu destino: lutar contra as forças do mal que 
+                        ameaçam a terra. Ao longo de sua aventura, Link derrota legiões de monstros do mal, explora vastas 
+                        terras, ajuda a qualquer um que ele encontre em dificuldades, percorre masmorras mortais, e coleta 
+                        itens míticos enquanto prossegue sua busca por justiça e paz. No final, ele ganha a o poder necessário 
+                        para impedir seu principal inimigo e torna-se um herói lendário. Ele é considerado um personagem icônico 
+                        dos vídeo games e o próprio símbolo da franquia Zelda, e continua sendo um dos protagonistas mais populares 
+                        dos vídeo games.
+                        <br> <br>
+                        <br>
+                        <h3>- Aparência</h3>
+                        <br>
+                        <p >
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        As características físicas de Link variam de jogo para jogo, embora ele geralmente tenha o cabelo claro 
+                        (que vão do marrom ao loiro, e até mesmo laranja), olhos azuis, e uma estatura mediana. Outros personagens, 
+                        por vezes, consideram ele como alguém bonito. É improvável que a idade de Link ultrapasse dezenove anos em 
+                        qualquer ponto na série até agora. Em muitos jogos da série, Link é o portador da Triforce da Coragem. Vários 
+                        jogos mencionam uma marca da Triforce na mão esquerda de Link, a qual o identifica como um herói escolhido ou o 
+                        detentor da Triforce da Coragem. Encarnações adolescentes de Link possuem físicos bem construídos enquanto as 
+                        versões mais jovens dele são, pelo menos, de tamanho moderado. É mostrado que o Link é, no mínimo, da mesma altura 
+                        que os Hylianss normais em torno de sua idade (com exceção do Link de Twilight Princess, que parece ser menor do que 
+                        a maioria dos Hylianos próximos da sua idade).
+                        <br> <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Curiosamente, Link possui uma semelhança com o Peter Pan, já que ambos são parecidos com elfos, usam roupa verde, 
+                        lutam com espadas, e são por vezes acompanhados por uma Fada. Link também luta contra sua sombra em alguns jogos, 
+                        como o Link das Trevas ou o Link das Sombras, assim como Peter. Surpreendentemente, Shigeru Miyamoto, o criador da 
+                        série Legend of Zelda, afirmou que ele usou Peter Pan como um pouco de inspiração para o projeto de Link em The 
+                        Legend of Zelda.
+                            <br> <br>
+                        <img id="link01" src="img/l1.png" onclick="changeImg()">
+                    </p>
+
+                    <br>
+                            <h3>- Personalidade</h3>
+                            <br>
+                            <p >
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Uma peculiaridade de Link, bem como de outros personagens, é as várias encarnações diferentes ao longo da série 
+                            Legend of Zelda. Está implícito que ele é um pouco sonolento ou preguiçoso, já que em algum ponto próximo ao início 
+                            de cada jogo, com exceção dos dois primeiros, ele está dormindo ou cochilando.
+                            <br> <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Como Link não costuma ser mostrado falando, sua personalidade é determinada principalmente por suas ações ou comentários
+                            dos outros sobre ele. É mostrado que o Link possui características básicas encontradas em um personagem heroico; bravura, 
+                            truísmo, compaixão, sabedoria e bondade. Ele até mesmo salva outros que anteriormente eram seus inimigos. Estas 
+                            características (juntamente com a sua pureza) o permite empunhar a Triforce completa em alguns dos jogos sem nenhum problema.
+                            Ele também é leal para com os mais próximos a ele. Isto é frequentemente mostrado em cada série, como muitas vezes ele 
+                            protege Zelda e outros de qualquer mal que os ameaça.
+                            <br> <br>
+                                </p>
+                                <br>
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Habilidades</h3>
+                            <br>
+                            <p >
+                                <img id="link02" src="img/l10.png" onclick="changeImg()">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Em cada uma de suas aventuras, Link cresce para se tornar proficiente com a Espada, sua principal forma de ataque. 
+                            Ele empunha sua espada na mão esquerda na maioria dos jogos (embora existam exceções). A Espada Mestra, uma lâmina 
+                            lendária que Link empunha ao longo de várias aventuras, tornou-se um sinônimo da série como o próprio Link. Link também 
+                            é extremamente habilidoso com uma grande variedade de instrumentos musicais mágicos, sendo capaz de usá-los imediatamente 
+                            após os obter. Isso também se estende aos seus outros itens e armas na série. Com as suas habilidades e suas armas, 
+                            Link geralmente torna-se forte o suficiente para derrotar todos os inimigos que o ameaçam. Ele também é muito inteligente, 
+                            já que ele pode rapidamente entender a mecânica complexa por trás das coisas ou descobrir o ponto fraco do adversário para 
+                            usar contra ele.
+                            <br> <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Em algumas de suas aventuras, Link é mostrado como tendo certo grau de aptidão com combate corpo a corpo (como a luta de 
+                            sumô de Gorons em Twilight Princess), bem como um grau de força sobre-humana (levantar objetos e seres pesados, como o 
+                            sabre de Koloktos, e os balançar sem nenhum problema em Skyward Sword); no entanto, ele é algumas vezes retratado como 
+                            alguém completamente indefeso, sem uma espada ou outra arma, como mostrado em Wind Waker: quando ele perde sua espada na 
+                            Fortaleza Abandonada, ele dependeu de sua furtividade e das armas dos inimigos para passar, e se ele for visto, ele se 
+                            rende sem lutar. Isso pode ser explicado pelo fato de que o Link em Wind Waker (assim como algumas outras encarnações dele) 
+                            era uma pequena criança, enquanto que os de The Adventure of Link, Ocarina Of Time (na segunda metade da história), Twilight 
+                            Princess e Skyward Sword já estavam na adolescência e, portanto, mais fortes e mais hábeis do que as suas contrapartes 
+                            pré-adolescentes. Um bom exemplo desta comparação seria como Link era incapaz de derrotar Bubbles no jogo original, mas pode os 
+                            derrotar em The Adventure of Link.
+                            <br> <br>   
+                            </p>
+                </p> 
+            </div>
+        </section>
+
+        <section id="linhat">
+          <div id="ltdiv1">
+                <br><br>
+                <h1>Linha do Tempo</h1>
+                <br><br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Muito complexo explicar a Linha do Tempo das aventuras do Link, ele tem muitas ramificações em suas reencarnações, por isso resolvi apresentar a Linha do Tempo de lançamentos dos jogos.
+                    <br><br><br>
+                        <div class="lt">
+                                <div class="corpo-lt">
+                                    
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 1986</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo Entertainment System</h5>    
+                                            <br> <br>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp; Situado na terra da fantasia de Hyrule, os centros 
+                                                da trama, um garoto chamado Link, o protagonista jogável, que visa a resgatar a 
+                                                Princesa Zelda do antagonista primário, Ganon, recolhendo os oito fragmentos da Triforce da Sabedoria, um poderoso artefato.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda" src="img/zelda1.png"> 
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda_(jogo_eletr%C3%B4nico)" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 1987</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">Zelda II: The Adventure of Link</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo Entertainment System</h5>    
+                                            <br> <br>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp; Apresenta áreas de side-scrolling em um mapa superior 
+                                                de cima para baixo, em vez da constante perspectiva de cima para baixo do título anterior, que apenas 
+                                                usava o side-scrolling em algumas áreas do porão das masmorras.
+                                               <img class="jszelda" title="Capa do jogo: Zelda II - The Adventure of Link" src="img/zelda2.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 1991</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: A Link to the Past</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Super Nintendo Entertainment System</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; A história é uma prequência de jogos anteriores da série, envolvendo os ancestrais de 
+                                                Link e da princesa Zelda. O jogo usa uma perspectiva de cima para baixo 3/4 semelhante ao do original 
+                                                The Legend of Zelda, deixando para trás os elementos de side-scrolling de Zelda II: The Adventure of Link. 
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - A Link to the Past" src="img/zelda3.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 1993</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Link's Awakening</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Game Boy</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; A atual encarnação de Link sofre um naufrágio durante uma tempestade e fica preso na Ilha 
+                                                Koholint, um local guardado por uma divindade semelhante a uma baleia chamada Peixe do Vento. Ele então parte em uma 
+                                                jornada com o objetivo de recuperar oito instrumentos musicais mágicos que juntos irão acordar o dormente Peixe do 
+                                                Vento e lhe permitir escapar da ilha.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Link's Awakening" src="img/zelda4.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 1998</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Ocarina of Time</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo 64</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Link viaja através do tempo e percorre calabouços para despertar os Sete Sábios, os quais têm 
+                                                o poder de selar Ganondorf para sempre. 
+                                                A música desempenha um papel importante: para progredir, o jogador deve aprender a tocar várias canções numa ocarina; 
+                                                o jogo foi responsável por aumentar o interesse por esse instrumento.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Ocarina of Time" src="img/zelda5.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2000</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Majora's Mask</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo 64</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; O jogo diferencia-se do resto da série por não se passar em Hyrule e não ser centrado na Triforce e na 
+                                                Princesa Zelda. A história se desenrola em Termina, uma espécie de "mundo paralelo", em que o protagonista Link deve tentar 
+                                                impedir que a lua colida com o planeta, provocando o apocalipse, após ser tirada da sua órbita pelo mascarado Skull Kid.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Majora's Mask" src="img/zelda6.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2001</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Oracle of Seasons and Ages</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Game Boy Color</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Em Seasons , a Triforce transporta Link para a terra de Holodrum, onde ele vê Onox sequestrar Din , 
+                                                o Oráculo das Estações. Em idades , a Triforce transporta Link para Labrynna, onde Veran possui Nayru. O enredo principal é 
+                                                revelado quando o jogador termina os dois jogos.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Oracle of Seasons and Ages" src="img/zelda7.png"> 
+                                                
+                                               <div>
+                                               <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_and_Oracle_of_Ages" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2002</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: A Link to the Past and Four Swords</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Game Boy Advance</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Concentra-se no herói Link em uma jornada para salvar a terra de Hyrule, 
+                                                impedir a volta de Ganon e libertar as sete donzelas descendentes dos antigos sábios.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - A Link to the Past and Four Swords" src="img/zelda8.png"> 
+                                                
+                                               <div>
+                                               <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past_and_Four_Swords" target="_blank"> Saiba mais</a>
+                                                </div>
+                                        </div>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: The Wind Waker</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console GameCube</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; A história segue o protagonista Link enquanto explora um arquipélago no meio de um vasto oceano à 
+                                                procura de sua irmã, que foi sequestrada e está nas mãos do maligno feiticeiro Ganon. Em sua jornada ele é auxiliado por uma 
+                                                capitã pirata chamada Tetra e por um barco falante chamado Rei dos Leões Vermelhos.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - The Wind Waker" src="img/zelda9.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker" target="_blank"> Saiba mais</a>
+                                                </div>
+                                        </div>
+                                    </p>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2004</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Four Swords Adventures</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console GameCube</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Em uma noite de tempestade, a Princesa Zelda e as donzelas do santuário têm medo de a razão para 
+                                                esses eventos ser do selo de Vaati estar enfraquecendo. Ela convoca Link e o leva para o castelo para que ele possa protegê-la 
+                                                e as outras donzelas enquanto eles abrem o portal para o Four Sword Sanctuary. Quando o fazem, no entanto, uma figura sombria surge do portal.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Four Swords Adventures" src="img/zelda10.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Four_Swords_Adventures" target="_blank"> Saiba mais</a>
+                                                </div>
+                                        </div>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: The Minish Cap</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Game Boy Advance</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Muitos anos antes dos eventos de The Minish Cap, uma raça de seres minúsculos, 
+                                                os Minish ajudaram a salvar Hyrule ao entregar a um garoto uma roupa verde, brilho dourado e a épica espada 
+                                                denominada Picori Blade para derrotar uma ameaça que surgira.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - The Minish Cap" src="img/zelda11.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap" target="_blank"> Saiba mais</a>
+                                                </div>
+                                        </div>
+                                    </p>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2006</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Twilight Princess</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para os consoles GameCube e Wii</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; A historia foca no protagonista Link, que tenta prevenir que sua terra natal Hyrule seja engolfada 
+                                                por uma dimensão paralela corrompida conhecida como Twilight Realm, Reino do Crepúsculo em tradução livre. Para isso, 
+                                                Link obtêm as formas tanto de um hyliano quanto a de um lobo, e é ajudado por uma criatura misteriosa chamada Midna.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Twilight Princess" src="img/zelda12.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2007</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Phantom Hourglass</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo DS</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; A história do jogo segue a de The Wind Waker, com foco na jornada do protagonista da série 
+                                                Link para salvar seu amigo Tetra do antagonista da história, Bellum, com a ajuda do Capitão Linebeck e seu navio, o SS Linebeck.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Phantom Hourglass" src="img/zelda13.png"> 
+                                                
+                                               <div>
+                                               <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Phantom_Hourglass" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2009</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Spirit Tracks</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo DS</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Cem anos depois dos acontecimentos de The Legend of Zelda: Phantom Hourglass, o descendente de Link 
+                                                se prepara para ser nomeado maquinista de trem pela Princesa Zelda. Logo após a cerimônia, Zelda pede a Link que vá ao seu 
+                                                quarto, pois quer conversar com ele sobre algo muito sério.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Spirit Tracks" src="img/zelda14.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Spirit_Tracks" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2011</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Skyward Sword</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Wii</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; De acordo com a lenda, três deusas antigas conferiram um grande poder capaz de conceder qualquer desejo: 
+                                                a Triforce. O Rei Demônio Demise queria a Triforce e em sua procura por esse poder ele acabou devastando boa parte da terra.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Skyward Sword" src="img/zelda15.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2013</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: A Link Between Worlds</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo 3DS</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; Uma antiga lenda hiruliana conta os eventos anteriores a A Link Between Worlds. 
+                                                Ganon procurou dominar o reino usando o poder da sagrada Triforce , mas foi derrotado por um herói lendário e selado pelos Sete Sábios. 
+                                                A Triforce foi dividida em três partes para evitar que o mal se levantasse novamente.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - A Link Between Worlds" src="img/zelda16.png"> 
+                                                
+                                               <div>
+                                               <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2015</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Tri Force Heroes</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para o console Nintendo 3DS</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; O jogo cooperativo de ação e aventura no qual três jogadores controlam versões de cores diferentes do 
+                                                protagonista da série Link e unem forças para lutar contra inimigos e resolver quebra-cabeças.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Tri Force Heroes" src="img/zelda17.png"> 
+                                                
+                                               <div>
+                                               <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tri_Force_Heroes" target="_blank"> Saiba mais</a>
+                                                </div>
+                                       </p>
+                                        </div>
+                                    </div>
+                                    <div class="itens-lt">
+                                        <p class="tempos"> 2016</p>
+                                        <div class="conteudo">
+                                            <h2 class="titulo">The Legend of Zelda: Breath of the Wild</h2>
+                                            <br>
+                                            <h5 class="titulo">- Publicado pela Nintendo para os consoles Wii U e Nintendo Switch</h5>    
+                                            <br> <br>
+                                            <p> &nbsp;&nbsp;&nbsp;&nbsp; No passado, por repetidas vezes, o mal conhecido como Calamity Ganon ameaçou o Reino de Hyrule, 
+                                                sempre sendo derrotado pela princesa Zelda, descendente da deusa Hylia, com a ajuda de seu fiel protetor Link.
+                                                Hyrule com o passar dos séculos tornou-se uma civilização avançada, protegida por quatro Feras Divinas e por um exército de Guardiões, armas robóticas autônomas.
+                                               <img class="jszelda" title="Capa do jogo: The Legend of Zelda - Breath of the Wild" src="img/zelda18.png"> 
+                                                
+                                               <div>
+                                               <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild" target="_blank"> Saiba mais</a>
+                                                </div>
+                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                    </p>
+            </div>
+        </section>
+
+
+        <section id="musicas">
+            <div id="div3">
+            
+                <br><br>
+                <h1>Músicas</h1>
+                <br><br>
+                <p>
+                            <!-- Link (kkkkkkkkkkk) para a playlist do Spotify -->
+                    <iframe src="https://open.spotify.com/embed/playlist/2gb7i6T9QZKaNKHFJf5kYF" width="2000" height="800" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            The Legend of Zelda é uma franquia multifacetada. Ao longo de suas três décadas de existência, Hyrule nos convidou 
+                            a explorar suas claustrofóbicas masmorras e cavalgar sobre seus campos verdejantes. Rimos com as peripécias de Tingle 
+                            e lamentamos a dissolução de Koholint Island ao final de Link’s Awakening.
+                            <br> <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            É por esse aspecto da diversidade que a música da série apresenta não apenas um caráter de pluralidade estilística, 
+                            mas também se insere como elemento fundamental a seu gameplay. A referência musical do compositor Koji Kondo é marcada pelo ocidentalismo, o que serviu de estratégia até mesmo para
+                            estabelecer relações mais firmes com os jogadores da parte oeste do mundo. O plano original do compositor para o tema 
+                            do game, inclusive, era arranjar a melodia do Bolero (1928) de Maurice Ravel para o chip sonoro do Famicom.
+                            <br> <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Essa ideia de variedade musical cresceria em proporção com o tamanho dos títulos subsequentes da série. Em Ocarina of 
+                            Time, por exemplo, podemos visitar o árido deserto que abriga o Spirit Temple, como também podemos mergulhar nas 
+                            águas do Lake Hylia. Se o flamenco andaluz de Gerudo Valley nos remete a um determinado lugar e sua cultura, o mesmo 
+                            ocorre de forma discrepante com o tema de Death Mountain ou de Zora’s Domain, por exemplo. Aqui esta uma playlist que escuto bastante, 
+                            para trabalhar, estudar, fazer projeto da semana  até mesmo para metitar.
+                            <br> 
+                            <div>><img id="link22" title="Link (do Ocarina of time) tocando sua 'Ocarina do Tempo', Princessa Zelda tocando sua harpa e o Link (de Breath of the Wild) tocando Acordeão" 
+                                alt="Fotos de personagens da esquerda para direta: Link (do Ocarina of time) tocando sua 'Ocarina do Tempo', Princessa Zelda tocando sua harpa e o Link (de Breath of the Wild) tocando Acordeão"
+                                src="img/link22.png"> </div> </p>
+            </div>
+
+        </section>
+
+        <section id="imagens">
+            <div >
+                <br><br>
+                  <h1>Galeria de Imagens</h1>
+                  <br><br>
+                  
+                    <h3>- FanArt by Nemésio</h3>
+                    <br><br>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Aqui está alguns rabiscos que fiz durante minha infância/adolescência:
+                    </p>
+                    <div id="container">
+                        <input type="radio" id="f1" name="grupo" checked>
+                        <label for="f1"><img src="img/fa1.jpg"></label>
+
+                        <input type="radio" id="f2" name="grupo">
+                        <label for="f2"><img src="img/fa2.jpg"></label>
+
+                        <input type="radio" id="f3" name="grupo">
+                        <label for="f3"><img src="img/fa3.jpg"></label>
+
+                        <input type="radio" id="f4" name="grupo">
+                        <label for="f4"><img src="img/fa4.jpg"></label>
+
+                        <input type="radio" id="f5" name="grupo">
+                        <label for="f5"><img src="img/fa5.jpg"></label>
+
+                        <input type="radio" id="f6" name="grupo">
+                        <label for="f6"><img src="img/fa6.jpg"></label>
+
+                        <dib class="principal">
+                            <div class="slide">
+                                <img alt="Desenho colorido do personagem Link da franquia de jogos Zelda, o personagem tem orelhas pontudas, 
+                                cabelos amarelados e olhos verdes, está com um capuz verde e vestimenta verde também, segurando um escudo e com aparência de bravura." 
+                                title="Fiz quando tinha 11 anos - em 2005" src="img/fa1.jpg">
+                                <img alt="Desenho preto e branco do personagem Link da franquia de jogos Zelda, 
+                                o personagem tem aparecia de criança, está com uma fada (vagalume) perto da duas 
+                                cabeça na direita, está segurando uma espada e um escudo." title="Fiz quando tinha 13 anos - em 2007" src="img/fa2.jpg">
+                                <img alt="Desenho colorido do personagem Link da franquia de jogos Zelda, o personagem tem orelhas pontudas, cabelos amarelados e 
+                                olhos verdes, está com um capuz verde e vestimenta verde também, segurando uma espada e escudo, parte de cima localizado na esquerda 
+                                está desenhado a logomarca do jogo." 
+                                title="Fiz quando tinha 16 anos - em 2010" src="img/fa3.jpg">
+                                <img alt="Desenho preto e branco de uma espada presa em uma predra." 
+                                title="Fiz quando tinha 17 anos - em 2011" src="img/fa4.jpg">
+                                <img alt="Desenho colorido do personagem Link da franquia de jogos Zelda, o personagem tem orelhas pontudas, cabelos amarelados e 
+                                olhos verdes, está com uma vestimenta azul, pegando atras da sua costa uma espada, e na outra mão segurando um arco." 
+                                title="Fiz quando tinha 21 anos - em 2015" src="img/fa5.jpg">
+                                <img alt="Desenho preto e branco da Logo marca da franquia de jogos Zelda, está desenhado uma letra 'Z' no meio da letra está uma 
+                                espada bem desgastada, na parte de baixo na direita da letra 'Z' está desenhado uma flor." 
+                                title="Fiz quando tinha 23 anos - em 2017" src="img/fa6.jpg">
+
+                            </div>
+                        </dib>
+                    </div>
+
+            </div>
+  
+          </section>
+
+        <section id="jmv" >
+            <div id="jogo360">
+               
+                    <br><br> 
+                    <h1>Jogo da Minha Vida</h1>
+                    <br><br>
+
+                    <h3>- The Legend of Zelda: Ocarina Of Time</h3>
+                    <br>
+                
+                    <p>
+               
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Ok, sou suspeito para falar dessa série, e jogos da Nintendo em geral, mas na boa; existem poucos jogos que definem uma geração e Ocarina of Time definiu, 
+                    pelo menos, duas. Nenhum jogo single player apresentou até hoje um fator replay tão cativante, nenhuma história envolvendo viagem no tempo foi tão bem 
+                    trabalhada e, acima de tudo, poucos jogos foram tão originais quanto ele. 
+                    <br><br>
+                
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Por isso The Legend of Zelda: Ocarina of Time para mim terá sempre meu respeitado, sua nota de 99 no Metacritic não e por acaso.
+                    Sua originalidade de enredo, jogabilidade, controles, arte e level design, sejam simples ou não, servem de referência até hoje no mundo dos games. 
+                    Perdi as contas de quantas vezes já joguei, realmente não me canso desse jogo sempre me remete boas lembrança da minha infância, foi meu primeiro contado 
+                    com um jogo e posso dizer que dei sorte que foi com essa obra prima.
+                    <br><br>
+                
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Lucas (ou quem estiver vendo isso)! Não sei se você já jogou, se conhece ou não, mas de uma chance a si mesmo e jogue esse game cara! apanhei um pouco 
+                    durante a semana para colocar ele aqui do lado para você (pensei em até desisti da ideia) mas consegui \0/
+                    
+                             <!-- Acesso o jogo legend of Zelda The Ocarina Of Time direto do site jogos 360 -->
+
+                            <!-- site https://www.jogos360.com.br/the_legend_of_zelda_the_ocarina_of_time.html -->
+
+                    <iframe src="//www.retrogames.cc/embed/32145-legend-of-zelda-the-ocarina-of-time-usa-rev-b.html" 
+                    width="2580" height="400" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+                    <p> <div> <a href="https://www.jogos360.com.br/the_legend_of_zelda_the_ocarina_of_time.html" target="_blank"> Site Jogos360</a></div>
+                        <br><br></p>
+                </p>
+                
+            </div>
+        </section>   
+    </div>  
+   
+    <footer >
+        
+        <div id="infor">
+        <div>
+            <h3>Faculdade iv2</h3>
+            <br><br><br><br>
+            <h2>&nbsp; - Instrutor: Lucas Santos</h2>
+            <br>
+            <h2>&nbsp; - Aluno: Nemésio Filho</h2>
+        </div>
+        <div>
+            <h3>Projeto da Semana Um</h3>
+            <br><br><br><br>
+            <h2> &nbsp;Tributo - Personagem / Pessoa <br><br>&nbsp;Influente do Mundo Moderno</h2>
+        </div>
+        <div id="fonte">
+            <h3>&nbsp;&nbsp;Referências</h3>
+                <br>
+                 <a href="https://pt.wikipedia.org/wiki/The_Legend_of_Zelda" title="Wikepedia" target="_blank">
+                    <img id="pes" src="img/wikipedia.svg">
+                    &nbsp;&nbsp;</a> 
+
+                     <a href="https://www.zelda.com/breath-of-the-wild/" title="Nintendo" target="_blank">
+                        <img src="img/nintendo.svg">
+                        &nbsp;</a> 
+
+                     <a href="https://zelda.fandom.com/pt-br/wiki/Link" title="Fandom" target="_blank">
+                        <img id="pes" src="img/fandom.svg">
+                        &nbsp;</a> <br>
+
+                     <a href="https://developer.mozilla.org/pt-BR/" title="MDN: Web Docs " target="_blank">
+                        <img src="img/web-development.svg">
+                        &nbsp;</a> 
+
+                 <a href="https://github.com/faculdadeiv2/beginners-projetos/tree/main/ProjetoSemana-1-pagina-icone" title="GitHub: Lucas Santos" target="_blank">
+                    <img src="img/github.svg">
+                    </a> 
+    
+        </div>
+    </div>
+    <div id="fim">
+    <img id="gif02" src="img/gif2.gif">
+    <img id="gif00" src="img/gif0.gif">
+    <p class="datahj"></p>
+    <img id="gif00" src="img/gif0.gif">
+    <img id="gif02" src="img/gif2.gif"></div>
+    </footer>
+    
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
